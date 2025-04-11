@@ -1,6 +1,6 @@
 #!/bin/bash
 
-udo apt-get update
+sudo apt-get update
 sudo apt-get install lsb-release gnupg
 
 sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
@@ -9,7 +9,7 @@ sudo apt-get update
 sudo apt-get install ignition-fortress
 
 sudo apt install -y ros-humble-ros-gz \
-  ros-humble-gz-ros2-control \
+  ros-humble-ign-ros2-control \
   ros-humble-ros2-control \
   ros-humble-ros2-controllers \
   ros-humble-navigation2 \
