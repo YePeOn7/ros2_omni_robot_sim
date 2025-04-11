@@ -14,4 +14,5 @@ sudo apt install -y ros-humble-ros-gz \
   ros-humble-ros2-controllers \
   ros-humble-navigation2 \
   ros-humble-nav2-bringup \
-  ros-humble-controller-manager
+  ros-humble-controller-manager \
+  ros-humble-slam-toolbox
