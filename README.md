@@ -34,12 +34,12 @@ Please clone this repository to your ros2 workspace. The following assume your r
 ```bash
 cd ~/ros2_ws/src
 git clone git@github.com:YePeOn7/ros2_omni_robot_sim.git
-cd ~/ros2_ws
 ```
 
 Install dependency by running the following command
 
 ```bash
+cd ~/ros2_ws/ros2_omni_robot_sim
 sudo chmod +x install_dependency.sh
 ./install_dependency.sh
 ```
