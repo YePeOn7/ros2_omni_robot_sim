@@ -145,7 +145,7 @@ private:
         for (size_t i = 0; i < msg->name.size(); ++i)
         {
           for (const auto& pair : wheel_joint_map_index) {
-            if (msg->name[i] == pair.first){
+            if (msg->name[i] == pair.first && i < msg->velocity.size()) {
                 w(pair.second) = msg->velocity[i];
                 break;
             }
